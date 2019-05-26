@@ -16,5 +16,5 @@ exports.print = function(){
             return source;
         }
     }
-    console.log(excep(), '：',...arguments);
+    console.log(excep(), '：', '\n',...arguments);
 }
